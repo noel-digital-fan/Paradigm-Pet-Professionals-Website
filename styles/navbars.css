@@ -1,0 +1,230 @@
+
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    background-color: #6699CC;
+    overflow-x: hidden;
+}
+
+p, ul, main h1, main h2{
+    margin: 0 30px;
+}
+
+/* TOP NAVBAR */
+.navtop {
+    margin: 0px;
+    padding: 0px;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+header {
+    background-color: #003B6D;
+    display: flex;
+    flex-direction: row;
+    height: 150px;
+    align-items: center; /* Center vertically */
+    color: white;
+    margin-bottom: 100px;
+}
+
+.title-nav {
+    display: flex;
+    flex-direction: column;
+    width: 33.3333333vw;
+    text-align: center;
+}
+
+.boximg {
+    min-width: 5vw;
+    padding: 20px;
+}
+
+.petshoplogo {
+    width: 70px;
+    height: 70px; 
+}
+
+header h1 {
+    font-size: 15px;
+}
+
+.title-nav h1 {
+    font-size: 15px;
+}
+
+.title-nav h3 {
+    font-size: 12px;
+}
+
+nav {
+    background-color: transparent;
+}
+
+.hamburger {
+    margin: 0;
+    font-size: 25px;
+    text-align: center;
+    width: 20vw;
+    height: 150px;
+    line-height: 150px; /* Vertical align */
+    background-color: #003B6D;
+    color: white;
+    border: none;            /* Remove border */
+    transition: background-color 0.3s ease;
+    
+}
+
+.hamburger:hover {
+    background-color: #001b34;
+}
+
+.nav1-buttons {
+    width: 20vw;
+    display: none;
+    background-color: #676767;
+}
+
+.nav1-buttons a:hover {
+    background-color: #555;
+}
+
+.nav1-buttons.show {
+    display: flex;
+    flex-direction: column;
+}
+
+.nav1-buttons a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.2rem;
+    padding: 10px 0;
+    transition: background-color 0.3s ease;
+}
+
+/* Search Bar Styles */
+.search-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 5px;
+    overflow-x: auto;
+}
+
+.search-bar input {
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    font-size: 0.7rem;
+    width: 10vw;
+}
+
+
+.search-bar button {
+    background-color: #676767;
+    border: none;
+    color: white;
+    font-size: 0.7rem;
+    cursor: pointer;
+    padding: 8px 12px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.search-bar button:hover {
+    background-color: #555;
+}
+
+/* FOOTER */
+.site-footer {
+    background-color: #003B6D;
+    color: #fff;
+    padding: 30px 0 10px 0;
+    margin-top: 20vh;
+    font-size: 1rem;
+}
+
+.footer-content {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.footer-nav, .footer-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+}
+
+.footer-nav a,
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.2s;
+    font-size: 1rem;
+}
+
+.footer-nav a:hover,
+.footer-links a:hover {
+    color: #FFD700;
+    text-decoration: underline;
+}
+
+.footer-location {
+    font-size: 0.98rem;
+    color: #e0e0e0;
+    margin-top: 5px;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 18px;
+    font-size: 0.95rem;
+    color: #ccc;
+    letter-spacing: 0.5px;
+    border-top: 1px solid #335a8c;
+    padding-top: 10px;
+}
+
+
+@media (min-width: 1760px) {
+    .site-footer {
+        margin-top: 30vh;
+    }
+}
+
+@media (min-width: 660px) {
+    form {
+        width: 20vw;
+        height: 500px;
+        overflow-y: auto;
+    }
+}
+
+@media (min-width: 820px) {
+    .search-bar {
+        overflow-x: hidden;
+    }
+}
+
+
+
+@media (min-width: 1250px) {
+    p, ul, main h1, main h2 {
+        margin: 0 200px;
+    }
+
+    form {
+        margin-right: 200px; /* Adjust margin to give space around the form */
+    }
+}

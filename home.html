@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Paradigm Pet Professionals</title>
+        <link rel="stylesheet" href="./styles/home.css">
+        <link rel="stylesheet" href="./styles/navbars.css">
+    </head>
+    
+    <body>
+        <div class="navtop">
+            <header>
+                <div class = "boximg">
+                    <a href="home.html"><img  alt="logo" class="petshoplogo" src="petshoplogo.png"></a>
+                </div>
+                <div class="title-nav">
+                    <h1>Paradigm Pet Professionals</h1>
+                    <h3>Evidence-based pet care advice for every pet lover</h3>
+                </div>
+            </header>
+            <nav>
+                <button class="hamburger" id="hamburger-icon">☰</button>
+                <div class="nav1-buttons">
+                    <a href="home.html">Home</a>
+                    <a href="dog.html">Dog</a>
+                    <a href="cat.html">Cat</a>
+                    <a href="bird.html">Bird</a>
+                    <div class="search-bar">
+                        <input type="text" id="search" placeholder="Search...">
+                        <button type="button" id="search-btn">Search 🔍</button>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <main>
+            <section class="photos">
+                <figure>
+                    <a href="dog.html">
+                        <img src="gallery/dogs/chip.jpg" alt="dog">
+                        <figcaption>Dog</figcaption>
+                    </a>
+                </figure>
+                <figure>
+                    <a href="cat.html">
+                        <img src="gallery/cats/maddie.jpg" alt="car">
+                        <figcaption>Cat</figcaption>
+                    </a>
+                </figure>
+                <figure>
+                    <a href="bird.html">
+                        <img src="gallery/birds/bird1.jpg" alt="bird">
+                        <figcaption>Bird</figcaption>
+                    </a>
+                </figure>
+            </section>
+            <section class="text">
+                <form action="/submit" method="POST">
+                    <h2 class="contact-title">Contact With Us!</h2>
+                
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    <br><br>
+                
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" id="phone" name="phone" required>
+                    <br><br>
+                
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    <br><br>
+                
+                    <label for="timezone">Time Zone:</label>
+                    <select id="timezone" name="timezone" required>
+                        <option value="">--Select Time Zone--</option>
+                        <option value="PST">Pacific Standard Time (PST)</option>
+                        <option value="MST">Mountain Standard Time (MST)</option>
+                        <option value="CST">Central Standard Time (CST)</option>
+                        <option value="EST">Eastern Standard Time (EST)</option>
+                        <!-- Add more as needed -->
+                    </select>
+                    <br><br>
+                
+                    <label for="petName">Pet’s Name:</label>
+                    <input type="text" id="petName" name="petName" required>
+                    <br><br>
+                
+                    <label for="petType">Pet’s Type:</label>
+                    <input type="text" id="petType" name="petType" required>
+                    <br><br>
+                
+                    <label for="petAge">Pet’s Age:</label>
+                    <input type="number" id="petAge" name="petAge" min="0" required>
+                    <br><br>
+                
+                    <label for="comments">Comments:</label>
+                    <textarea id="comments" name="comments" rows="4" cols="50" required></textarea>
+                    <br><br>
+                
+                    <button type="submit">Submit</button>
+                </form>
+                <p>
+                    Pets are nature's gift to humanity. It has been scientifically proven that opening our
+                    homes and hearts to a pet increases our longevity and improves our overall quality of life
+                    as well as the lives of our pets. At Pet Paradigm Professionals, our mission is to offer
+                    resources to help you care for your furry, scaly, feathery, and slimy loved ones.
+                    Our pet experts—or “Pexperts”—have been working with pet owners and professionals alike for
+                    the past twelve years. They offer one-on-one consultations with current and prospective pet
+                    owners as well as group presentations designed for veterinary, pet shelter, and pet breeding
+                    professionals.
+                </p>
+                <br>
+                <p>
+                    Looking for basic pet care advice for the most common type of pets? Need additional help
+                    determining which type of pet is right for you and your family? We will work with you and
+                    provide tailored evidence-based pet care to ensure lifelong health and wellness of your new companion.
+                </p>
+                <br>
+                <p>
+                    Looking for your new best friend? The following organizations can help you find and adopt the perfect companion:
+                    <br>
+                    <br>
+                    <ul>
+                        <li>General Pet Resources: <a href="https://bestfriends.org/pet-care-resources/issues/pet-adoption-resources">https://bestfriends.org/pet-care-resources/issues/pet-adoption-resources</a></li>
+                        <li>ASPCA: <a href="https://www.aspca.org/">https://www.aspca.org/</a></li>
+                        <li>Fish Rescue: <a href="https://www.sterlingshelter.org/humane-society/koi-fish-rescue/">https://www.sterlingshelter.org/humane-society/koi-fish-rescue/</a></li>
+                        <li>Snake Rescue: <a href="https://savethesnakes.org/snakerescuecall/">https://savethesnakes.org/snakerescuecall/</a></li>
+                        <li>Bird Rescue: <a href="https://ftlob.rescuegroups.org/">https://ftlob.rescuegroups.org/</a></li>
+                    </ul>
+                </p>
+                <br>
+                <p>
+                    We are also happy to help you navigate the adoption process! We will guide you through each step
+                    in the process from determining which type of pet is best suited for your family and home environment,
+                    to completing the necessary paperwork, to bringing your new loved one home. Please fill out our
+                    contact form to request a consultation. We will contact you within 48 hours to schedule a consultation.
+                    All fields are required.
+                </p>
+                <p>
+                    
+                </p>
+            </section>
+        </main>
+        <footer class="site-footer">
+            <div class="footer-content">
+                <nav class="footer-nav">
+                    <a href="home.html">Home</a>
+                    <a href="dog.html">Dog</a>
+                    <a href="cat.html">Cat</a>
+                    <a href="bird.html">Bird</a>
+                </nav>
+                <div class="footer-links">
+                    <a href="https://bestfriends.org/pet-care-resources/issues/pet-adoption-resources" target="_blank">Pet Adoption Resources</a>
+                    <a href="https://www.aspca.org/" target="_blank">ASPCA</a>
+                    <a href="https://www.sterlingshelter.org/humane-society/koi-fish-rescue/" target="_blank">Fish Rescue</a>
+                    <a href="https://savethesnakes.org/snakerescuecall/" target="_blank">Snake Rescue</a>
+                    <a href="https://ftlob.rescuegroups.org/" target="_blank">Bird Rescue</a>
+                </div>
+                <div class="footer-location">
+                    123 Pet Lane, Animal City, PA 19000, USA
+                </div>
+            </div>
+            <div class="footer-bottom">
+                &copy; 2025 Paradigm Pet Professionals. All rights reserved.
+            </div>
+        </footer>
+        
+        <script src="script.js"></script> <!-- Link to external JS file -->
+    </body>
+</html>

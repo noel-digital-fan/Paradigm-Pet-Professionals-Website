@@ -1,0 +1,105 @@
+.photos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;           /* Allow items to wrap in case of smaller screens */
+    text-align: center;
+}
+
+figure {
+    background-color: #BDBDBD;
+    border-radius: 10px;
+    border: 1px #BDBDBD solid;
+    transition: background-color 0.3s;
+}
+
+figure:hover {
+    background-color: #676767; /* Darker dim gray on hover */
+    border-color: #676767;
+}
+
+.photos img {
+    width: 25vw;
+    max-width: 300px;
+    height: auto;
+    border-radius: 10px 10px 0 0;
+}
+
+.photos a {
+    text-decoration: none;
+    color: azure;
+}
+
+/* Form Styles */
+form {
+    background-color: #BDBDBD; /* Silver background for the form */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    margin: 30px; /* Adjust margin to give space around the form */
+    float: right; /* Float the form to the right */
+    overflow-y: hidden;
+}
+
+form h2{
+    text-align: center;
+}
+
+form label {
+    font-size: 1rem;
+    color: black; /* Dim gray for label text */
+    margin-bottom: 8px;
+    display: block;
+}
+
+form input {
+    height: 20px;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+    box-sizing: border-box;
+    background-color: #F4F4F4; /* Light gray background for input fields */
+}
+
+form input:focus,
+form textarea:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+form button {
+    background-color: #676767; /* Dim gray background for the button */
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    display: block;
+    margin: 0 auto; /* This centers the button */
+}
+
+form button:hover {
+    background-color: #555; /* Darker dim gray on hover */
+}
+
+form p {
+    font-size: 1rem;
+    color: #676767; /* Dim gray for paragraph text */
+    margin-top: 20px;
+}
+
+.contact-title {
+    margin: 0;
+}
